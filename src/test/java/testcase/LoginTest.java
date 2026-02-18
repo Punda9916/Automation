@@ -16,6 +16,7 @@ public class LoginTest extends BaseTest{
 public  void logging() 
 
 	{
+		System.out.println("Driver in test: " + getDriver());
 	loginPage loginpage = new loginPage(getDriver());
 	loginpage.loginApplication("papupandu@gmail.com", "Papupandu@123");
 	

@@ -4,17 +4,6 @@
   <listeners>
     <listener class-name="utilities.Listeners"/>
   </listeners>
-  <test thread-count="4" parallel="tests" name="Payment(failed)" verbose="0">
-    <classes>
-      <class name="testcase.PaymentPageTest">
-        <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="Payment"/>
-        </methods>
-      </class> <!-- testcase.PaymentPageTest -->
-    </classes>
-  </test> <!-- Payment(failed) -->
   <test thread-count="4" parallel="tests" name="Product(failed)" verbose="0">
     <classes>
       <class name="testcase.ProductPageTest">

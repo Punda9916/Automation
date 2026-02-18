@@ -36,32 +36,52 @@ public void setup() throws IOException {
 		
 /*	if(driver==null) {
 		System.out.println(System.getProperty("user.dir"));*/
-		FileReader fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configfiles\\config.properties");
+	System.out.println(">>> Setup method called");
+		fr = new FileReader(System.getProperty("user.dir")+"\\src\\test\\resources\\configfiles\\config.properties");
 	    prop.load(fr);
 	
-	 String browserName = System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");
-	if(browserName.equalsIgnoreCase("chrome")){
+	 String browserName = System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");;
+	if(browserName.contains("chrome"))
+	{
+		System.out.println("Inside chrome block Browsername ="+browserName);
 		ChromeOptions options = new ChromeOptions();
 		WebDriverManager.chromedriver().setup(); //base
+		
 		if(browserName.contains("headless")) {
 			options.addArguments("headless");
+			options.addArguments("--window-size=1920,1080"); // Full HD
+			System.out.println("running in headless mode");
+		}
+		else
+		{
+			System.out.println("running in head mode");
 		}
 	    driver.set(new ChromeDriver(options)); //base
-	    driver.get().get(prop.getProperty("testurl")); //properties
-	    driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10) );
+	    getDriver().get(prop.getProperty("testurl")); //properties
+	    getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10) );
 	    System.out.println("Chrome Started Successfully");
+	    System.out.println("Driver initialized: " + getDriver());
+
 	}
 	
-	else if(browserName.equalsIgnoreCase("edge")) {
+	
+	else if(browserName.contains("edge")) 
+	{
+		System.out.println("Inside edge block Browsername ="+browserName);
 		EdgeOptions options = new EdgeOptions();
 		System.setProperty("webdriver.edge.driver","C:\\Users\\NAGAVENI P\\Edge driver\\msedgedriver.exe"); 
 		//WebDriverManager.edgedriver().setup(); //base
 		if(browserName.contains("headless")) {
 			options.addArguments("headless");
+			options.addArguments("--window-size=1920,1080"); 
+		}
+		else
+		{
+			System.out.println("running in head");
 		}
 		 driver.set(new EdgeDriver(options)); //base
-	    driver.get().get(prop.getProperty("testurl")); //properties
-	    driver.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(10) );
+	    getDriver().get(prop.getProperty("testurl")); //properties
+	    getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10) );
 	    System.out.println("Edge Started Successfully");
 	}
 		
@@ -74,14 +94,14 @@ protected WebDriver getDriver() {
 
 public void waitForElementToAppear(By findBy) {
 	
-	WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(40));
+	WebDriverWait wait = new WebDriverWait(getDriver(), Duration.ofSeconds(40));
 	wait.until(ExpectedConditions.visibilityOfElementLocated(findBy));
 			
 }
 
 public String getScreenShot(String testCaseName) throws IOException {
 	
-	TakesScreenshot ts=  (TakesScreenshot)driver.get();
+	TakesScreenshot ts=  (TakesScreenshot)getDriver();
 	File src=ts.getScreenshotAs(OutputType.FILE);
 	File dest= new File(System.getProperty("user.dir")+"\\src\\test\\resources\\reports" +testCaseName+ ".png");
 	FileUtils.copyFile(src, dest);
@@ -90,9 +110,9 @@ public String getScreenShot(String testCaseName) throws IOException {
                                                                         
 @AfterMethod(alwaysRun=true)
 	public void teardown() {
-		if(driver.get()!= null) {
+		if(getDriver()!= null) {
 			
-			driver.get().quit();
+			getDriver().quit();
 			driver.remove();
 			System.out.println("TearDown Successfully!...");
 		}

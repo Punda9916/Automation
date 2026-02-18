@@ -9,7 +9,34 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Depends on Groups</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">104,918</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Payment</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">141,518</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Product</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">143,684</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">390,120</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody></table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Depends on Groups &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcase.LoginTest</td><td><a href="#m0">logging</a></td><td rowspan="1">1771421857190</td><td rowspan="1">1658</td></tr><tr class="passedodd"><td rowspan="1">testcase.OrderConfirmationPageTest</td><td><a href="#m1">orderConfirmation</a></td><td rowspan="1">1771421881800</td><td rowspan="1">8970</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Payment &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcase.PaymentPageTest</td><td><a href="#m2">Payment</a></td><td rowspan="1">1771421850886</td><td rowspan="1">91814</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Product &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcase.ProductPageTest</td><td><a href="#m3">addProduct</a></td><td rowspan="1">1771421857223</td><td rowspan="1">87453</td></tr></tbody>
+</table>
+<h2>Depends on Groups</h2><h3 id="m0">testcase.LoginTest#logging</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcase.OrderConfirmationPageTest#orderConfirmation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Payment</h2><h3 id="m2">testcase.PaymentPageTest#Payment</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Product</h2><h3 id="m3">testcase.ProductPageTest#addProduct</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath:  //div [contains(text(),&apos;Product Added To Cart&apos;)]  (tried for 60 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54106}, goog:processID: 18076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54106/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f40653eda473ef9753571cba44ec57ff
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at support.AbstractComponent.waitForElementToAppear(AbstractComponent.java:32)
+	at page.productPage.addToCart(productPage.java:86)
+	at testcase.ProductPageTest.addProduct(ProductPageTest.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
