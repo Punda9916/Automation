@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="145.768" tests="4" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="143.472" tests="4" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="webdriver.chrome.driver" value="C:\Users\NAGAVENI P\.cache\selenium\chromedriver\win64\145.0.7632.76\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\NAGAVENI P\AppData\Local\Temp\surefire1100915067401035308\surefirebooter-20260218190640165_3.jar C:\Users\NAGAVENI P\AppData\Local\Temp\surefire1100915067401035308 2026-02-18T19-06-39_599-jvmRun1 surefire-20260218190640165_1tmp surefire_0-20260218190640165_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\NAGAVENI P\AppData\Local\Temp\surefire18118845393502665136\surefirebooter-20260218192855853_3.jar C:\Users\NAGAVENI P\AppData\Local\Temp\surefire18118845393502665136 2026-02-18T19-28-55_379-jvmRun1 surefire-20260218192855853_1tmp surefire_0-20260218192855853_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\NAGAVENI P\eclipse-workspace\Automation\target\test-classes;C:\Users\NAGAVENI P\eclipse-workspace\Automation\target\classes;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-java\4.33.0\selenium-java-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-api\4.33.0\selenium-api-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.33.0\selenium-chrome-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.33.0\selenium-chromium-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-json\4.33.0\selenium-json-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.33.0\selenium-manager-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v135\4.33.0\selenium-devtools-v135-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v136\4.33.0\selenium-devtools-v136-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v137\4.33.0\selenium-devtools-v137-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.33.0\selenium-edge-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.33.0\selenium-firefox-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-http\4.33.0\selenium-http-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.33.0\selenium-ie-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.33.0\selenium-remote-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-api\1.50.0\opentelemetry-api-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-context\1.50.0\opentelemetry-context-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.50.0\opentelemetry-exporter-logging-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.50.0\opentelemetry-sdk-common-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.50.0\opentelemetry-sdk-extension-autoconfigure-spi-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.50.0\opentelemetry-sdk-extension-autoconfigure-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.50.0\opentelemetry-sdk-trace-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.50.0\opentelemetry-sdk-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.50.0\opentelemetry-sdk-metrics-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.50.0\opentelemetry-sdk-logs-1.50.0.jar;C:\Users\NAGAVENI P\.m2\repository\net\bytebuddy\byte-buddy\1.17.5\byte-buddy-1.17.5.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-os\4.33.0\selenium-os-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.33.0\selenium-safari-driver-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\seleniumhq\selenium\selenium-support\4.33.0\selenium-support-4.33.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\NAGAVENI P\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\NAGAVENI P\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\poi\poi\5.4.1\poi-5.4.1.jar;C:\Users\NAGAVENI P\.m2\repository\commons-codec\commons-codec\1.18.0\commons-codec-1.18.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\NAGAVENI P\.m2\repository\commons-io\commons-io\2.18.0\commons-io-2.18.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\logging\log4j\log4j-core\2.25.0\log4j-core-2.25.0.jar;C:\Users\NAGAVENI P\.m2\repository\io\github\bonigarcia\webdrivermanager\6.1.0\webdrivermanager-6.1.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\code\gson\gson\2.13.0\gson-2.13.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\google\errorprone\error_prone_annotations\2.37.0\error_prone_annotations-2.37.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\github\docker-java\docker-java\3.5.0\docker-java-3.5.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\github\docker-java\docker-java-core\3.5.0\docker-java-core-3.5.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\github\docker-java\docker-java-api\3.5.0\docker-java-api-3.5.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\NAGAVENI P\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.5.0\docker-java-transport-httpclient5-3.5.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\github\docker-java\docker-java-transport\3.5.0\docker-java-transport-3.5.0.jar;C:\Users\NAGAVENI P\.m2\repository\net\java\dev\jna\jna\5.17.0\jna-5.17.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\commons\commons-lang3\3.17.0\commons-lang3-3.17.0.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\commons\commons-compress\1.27.1\commons-compress-1.27.1.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.4.3\httpclient5-5.4.3.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.3.4\httpcore5-5.3.4.jar;C:\Users\NAGAVENI P\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.3.4\httpcore5-h2-5.3.4.jar;C:\Users\NAGAVENI P\.m2\repository\net\java\dev\jna\jna-platform\5.13.0\jna-platform-5.13.0.jar;C:\Users\NAGAVENI P\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.20.1\jackson-databind-2.20.1.jar;C:\Users\NAGAVENI P\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.20\jackson-annotations-2.20.jar;C:\Users\NAGAVENI P\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.20.1\jackson-core-2.20.1.jar;C:\Users\NAGAVENI P\.m2\repository\com\aventstack\extentreports\5.1.2\extentreports-5.1.2.jar;C:\Users\NAGAVENI P\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\NAGAVENI P\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\NAGAVENI P\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\NAGAVENI P\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\NAGAVENI P\AppData\Local\Temp\surefire1100915067401035308\surefirebooter-20260218190640165_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\NAGAVENI P\AppData\Local\Temp\surefire18118845393502665136\surefirebooter-20260218192855853_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.1+12-LTS-39"/>
@@ -40,7 +40,7 @@
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="chromeheadless"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\NAGAVENI P\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
@@ -51,94 +51,82 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\dotnet\;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\NAGAVENI P\AppData\Local\Microsoft\WindowsApps;C:\Users\NAGAVENI P\.dotnet\tools;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Java\jre-10.0.2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\dotnet\;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\NAGAVENI P\AppData\Local\Microsoft\WindowsApps;C:\Users\NAGAVENI P\.dotnet\tools;C:\apache-maven-3.9.12-bin\apache-maven-3.9.12\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="17.0.1+12-LTS-39"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="logging" classname="testcase.LoginTest" time="1.634">
-    <system-out><![CDATA[Suite Started: Payment
-Suite Started: Product
+  <testcase name="logging" classname="testcase.LoginTest" time="8.887">
+    <system-out><![CDATA[Suite Started: Product
 Suite Started: Depends on Groups
+Suite Started: Payment
 >>> Setup method called
 >>> Setup method called
 >>> Setup method called
-Inside chrome block Browsername =chrome
-Inside chrome block Browsername =chrome
-Inside chrome block Browsername =chrome
-running in head mode
-running in head mode
-running in head mode
+Inside chrome block Browsername =chromeheadless
+Inside chrome block Browsername =chromeheadless
+Inside chrome block Browsername =chromeheadless
+running in headless mode
+running in headless mode
+running in headless mode
 Chrome Started Successfully
-Driver initialized: ChromeDriver: chrome on windows (b9e748b3600e62b44d52ce1daddbbc66)
+Driver initialized: ChromeDriver: chrome on windows (ec930b02bdbb2a2f8218648054990c33)
 Test Started: Payment
 Chrome Started Successfully
-Driver initialized: ChromeDriver: chrome on windows (573018ee6979c710927bf8529c10bf3f)
-Test Started: logging
-Driver in test: ChromeDriver: chrome on windows (573018ee6979c710927bf8529c10bf3f)
-Chrome Started Successfully
-Driver initialized: ChromeDriver: chrome on windows (f40653eda473ef9753571cba44ec57ff)
+Driver initialized: ChromeDriver: chrome on windows (6c7adf1084764285785047cb254ca1ac)
 Test Started: addProduct
-By.cssSelector: .mb-3
+Chrome Started Successfully
+Driver initialized: ChromeDriver: chrome on windows (1cce89edac932f5944aa1b94d4598fed)
+Test Started: logging
+Driver in test: ChromeDriver: chrome on windows (1cce89edac932f5944aa1b94d4598fed)
 Test Passed: logging
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Feb 18, 2026 7:07:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 18, 2026 7:07:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 145.0.7632.75. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Feb 18, 2026 7:07:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 145
-Feb 18, 2026 7:07:19 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 145.0.7632.75. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-Feb 18, 2026 7:07:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 145
-Feb 18, 2026 7:07:21 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
-WARNING: Unable to find version of CDP to use for 145.0.7632.75. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-]]></system-err>
-  </testcase>
-  <testcase name="orderConfirmation" classname="testcase.OrderConfirmationPageTest" time="8.973">
-    <system-out><![CDATA[By.cssSelector: .mb-3
-Clicked Add To Cart for: ZARA COAT 3
-TearDown Successfully!...
->>> Setup method called
-Inside chrome block Browsername =chrome
-running in head mode
-Chrome Started Successfully
-Driver initialized: ChromeDriver: chrome on windows (76e45441df26f97a72d5bfd0d2797cea)
-Test Started: orderConfirmation
-Test Passed: orderConfirmation
-]]></system-out>
-    <system-err><![CDATA[Feb 18, 2026 7:08:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 145
-Feb 18, 2026 7:08:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+Feb 18, 2026 7:29:35 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
 WARNING: Unable to find version of CDP to use for 145.0.7632.75. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="Payment" classname="testcase.PaymentPageTest" time="60.89">
-    <system-out><![CDATA[TearDown Successfully!...
-Suite Finished: Depends on Groups
-Clicked Add To Cart for: ZARA COAT 3
-Test Passed: Payment
-]]></system-out>
-  </testcase>
-  <testcase name="addProduct" classname="testcase.ProductPageTest" time="63.41">
-    <failure message="Expected condition failed: waiting for visibility of element located by By.xpath:  //div [contains(text(),&apos;Product Added To Cart&apos;)]  (tried for 60 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54106}, goog:processID: 18076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54106/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f40653eda473ef9753571cba44ec57ff" type="org.openqa.selenium.TimeoutException"><![CDATA[org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of element located by By.xpath:  //div [contains(text(),'Product Added To Cart')]  (tried for 60 second(s) with 500 milliseconds interval)
+  <testcase name="Payment" classname="testcase.PaymentPageTest" time="15.964">
+    <failure message="element click intercepted: Element &lt;button _ngcontent-frd-c36=&quot;&quot; class=&quot;btn btn-primary&quot; style=&quot;margin-top: -20px;&quot;&gt;...&lt;/button&gt; is not clickable at point (540, 399). Other element would receive the click: &lt;div role=&quot;alert&quot; class=&quot;ng-tns-c4-2 toast-message ng-star-inserted&quot; aria-label=&quot;Product Added To Cart&quot; style=&quot;&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=145.0.7632.75)&#10;Build info: version: &apos;4.33.0&apos;, revision: &apos;2c6aaad03a&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ec930b02bdbb2a2f8218648054990c33, clickElement {id=f.EF64FC098CC9DDD154903343FAEC9158.d.03F781D11EAD0558A831CF06DEFFAD14.e.94}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54383}, goog:processID: 3840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54383/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on windows (ec930b02bdbb2a2f8218648054990c33)] -&gt; xpath: //*[contains(@class, &apos;btn btn-primary&apos;) and contains(text(), &apos;Buy Now&apos;)]]&#10;Session ID: ec930b02bdbb2a2f8218648054990c33" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <button _ngcontent-frd-c36="" class="btn btn-primary" style="margin-top: -20px;">...</button> is not clickable at point (540, 399). Other element would receive the click: <div role="alert" class="ng-tns-c4-2 toast-message ng-star-inserted" aria-label="Product Added To Cart" style="">...</div>
+  (Session info: chrome=145.0.7632.75)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54106}, goog:processID: 18076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54106/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f40653eda473ef9753571cba44ec57ff
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-	at support.AbstractComponent.waitForElementToAppear(AbstractComponent.java:32)
-	at page.productPage.addToCart(productPage.java:86)
-	at testcase.ProductPageTest.addProduct(ProductPageTest.java:23)
+Command: [ec930b02bdbb2a2f8218648054990c33, clickElement {id=f.EF64FC098CC9DDD154903343FAEC9158.d.03F781D11EAD0558A831CF06DEFFAD14.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54383}, goog:processID: 3840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54383/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec930b02bdbb2a2f8218648054990c33)] -> xpath: //*[contains(@class, 'btn btn-primary') and contains(text(), 'Buy Now')]]
+Session ID: ec930b02bdbb2a2f8218648054990c33
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at page.productPage.clickBuyNow(productPage.java:100)
+	at testcase.PaymentPageTest.Payment(PaymentPageTest.java:26)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,7 +150,35 @@ Session ID: f40653eda473ef9753571cba44ec57ff
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
 	at java.base/java.lang.Thread.run(Thread.java:833)
 ]]></failure>
-    <system-out><![CDATA[Test Failed: addProduct
+    <system-out><![CDATA[By.cssSelector: .mb-3
+By.cssSelector: .mb-3
+Clicked Add To Cart for: ZARA COAT 3
+Test Failed: Payment
+]]></system-out>
+  </testcase>
+  <testcase name="orderConfirmation" classname="testcase.OrderConfirmationPageTest" time="3.6">
+    <system-out><![CDATA[TearDown Successfully!...
+>>> Setup method called
+Inside chrome block Browsername =chromeheadless
+running in headless mode
+TearDown Successfully!...
+Suite Finished: Payment
+Chrome Started Successfully
+Driver initialized: ChromeDriver: chrome on windows (b918b0075554767efe20c02db85bc962)
+Test Started: orderConfirmation
+Test Passed: orderConfirmation
+]]></system-out>
+    <system-err><![CDATA[Feb 18, 2026 7:30:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 145
+Feb 18, 2026 7:30:10 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$4
+WARNING: Unable to find version of CDP to use for 145.0.7632.75. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.33.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="addProduct" classname="testcase.ProductPageTest" time="66.251">
+    <system-out><![CDATA[TearDown Successfully!...
+Suite Finished: Depends on Groups
+Clicked Add To Cart for: ZARA COAT 3
+Test Passed: addProduct
 ]]></system-out>
   </testcase>
 </testsuite>

@@ -2,86 +2,57 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-18T19:06:43 IST" name="Suite" finished-at="2026-02-18T19:09:07 IST" duration-ms="143684">
+  <suite started-at="2026-02-18T19:28:59 IST" name="Suite" finished-at="2026-02-18T19:31:20 IST" duration-ms="141316">
     <groups>
       <group name="Login">
         <method signature="LoginTest.logging()[pri:0, instance:testcase.LoginTest@710636b0]" name="logging" class="testcase.LoginTest"/>
       </group> <!-- Login -->
     </groups>
-    <test started-at="2026-02-18T19:06:43 IST" name="Depends on Groups" finished-at="2026-02-18T19:08:28 IST" duration-ms="104918">
-      <class name="testcase.LoginTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:06:43 IST" name="setup" finished-at="2026-02-18T19:07:37 IST" duration-ms="53230" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="logging()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:07:37 IST" name="logging" finished-at="2026-02-18T19:07:38 IST" duration-ms="1658" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logging -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:07:38 IST" name="teardown" finished-at="2026-02-18T19:07:51 IST" duration-ms="12769" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcase.LoginTest -->
-      <class name="testcase.OrderConfirmationPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:07:51 IST" name="setup" finished-at="2026-02-18T19:08:01 IST" duration-ms="10148" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="orderConfirmation()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:08:01 IST" name="orderConfirmation" depends-on-groups="Login" finished-at="2026-02-18T19:08:10 IST" duration-ms="8970" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- orderConfirmation -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:08:10 IST" name="teardown" finished-at="2026-02-18T19:08:28 IST" duration-ms="18008" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcase.OrderConfirmationPageTest -->
-    </test> <!-- Depends on Groups -->
-    <test started-at="2026-02-18T19:06:43 IST" name="Payment" finished-at="2026-02-18T19:09:05 IST" duration-ms="141518">
+    <test started-at="2026-02-18T19:28:59 IST" name="Payment" finished-at="2026-02-18T19:30:05 IST" duration-ms="66100">
       <class name="testcase.PaymentPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:06:43 IST" name="setup" finished-at="2026-02-18T19:07:30 IST" duration-ms="46924" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:28:59 IST" name="setup" finished-at="2026-02-18T19:29:42 IST" duration-ms="42991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Payment()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:07:30 IST" name="Payment" finished-at="2026-02-18T19:09:02 IST" duration-ms="91814" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Payment -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:09:02 IST" name="teardown" finished-at="2026-02-18T19:09:05 IST" duration-ms="2680" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testcase.PaymentPageTest -->
-    </test> <!-- Payment -->
-    <test started-at="2026-02-18T19:06:43 IST" name="Product" finished-at="2026-02-18T19:09:07 IST" duration-ms="143684">
-      <class name="testcase.ProductPageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:06:43 IST" name="setup" finished-at="2026-02-18T19:07:37 IST" duration-ms="53264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addProduct()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:07:37 IST" name="addProduct" finished-at="2026-02-18T19:09:04 IST" duration-ms="87453" status="FAIL">
-          <exception class="org.openqa.selenium.TimeoutException">
+        <test-method signature="Payment()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:29:42 IST" name="Payment" finished-at="2026-02-18T19:30:00 IST" duration-ms="18069" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath:  //div [contains(text(),'Product Added To Cart')]  (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[element click intercepted: Element <button _ngcontent-frd-c36="" class="btn btn-primary" style="margin-top: -20px;">...</button> is not clickable at point (540, 399). Other element would receive the click: <div role="alert" class="ng-tns-c4-2 toast-message ng-star-inserted" aria-label="Product Added To Cart" style="">...</div>
+  (Session info: chrome=145.0.7632.75)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54106}, goog:processID: 18076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54106/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f40653eda473ef9753571cba44ec57ff]]>
+Command: [ec930b02bdbb2a2f8218648054990c33, clickElement {id=f.EF64FC098CC9DDD154903343FAEC9158.d.03F781D11EAD0558A831CF06DEFFAD14.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54383}, goog:processID: 3840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54383/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec930b02bdbb2a2f8218648054990c33)] -> xpath: //*[contains(@class, 'btn btn-primary') and contains(text(), 'Buy Now')]]
+Session ID: ec930b02bdbb2a2f8218648054990c33]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath:  //div [contains(text(),'Product Added To Cart')]  (tried for 60 second(s) with 500 milliseconds interval)
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-frd-c36="" class="btn btn-primary" style="margin-top: -20px;">...</button> is not clickable at point (540, 399). Other element would receive the click: <div role="alert" class="ng-tns-c4-2 toast-message ng-star-inserted" aria-label="Product Added To Cart" style="">...</div>
+  (Session info: chrome=145.0.7632.75)
 Build info: version: '4.33.0', revision: '2c6aaad03a'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54106}, goog:processID: 18076, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54106/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f40653eda473ef9753571cba44ec57ff
-at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
-at support.AbstractComponent.waitForElementToAppear(AbstractComponent.java:32)
-at page.productPage.addToCart(productPage.java:86)
-at testcase.ProductPageTest.addProduct(ProductPageTest.java:23)
+Command: [ec930b02bdbb2a2f8218648054990c33, clickElement {id=f.EF64FC098CC9DDD154903343FAEC9158.d.03F781D11EAD0558A831CF06DEFFAD14.e.94}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.75, chrome: {chromedriverVersion: 145.0.7632.76 (ee36f024f43a..., userDataDir: C:\Users\NAGAVE~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54383}, goog:processID: 3840, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54383/devtoo..., se:cdpVersion: 145.0.7632.75, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ec930b02bdbb2a2f8218648054990c33)] -> xpath: //*[contains(@class, 'btn btn-primary') and contains(text(), 'Buy Now')]]
+Session ID: ec930b02bdbb2a2f8218648054990c33
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at page.productPage.clickBuyNow(productPage.java:100)
+at testcase.PaymentPageTest.Payment(PaymentPageTest.java:26)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -106,11 +77,57 @@ at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecut
 at java.base/java.lang.Thread.run(Thread.java:833)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Payment -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.PaymentPageTest@23941fb4]" started-at="2026-02-18T19:30:00 IST" name="teardown" finished-at="2026-02-18T19:30:05 IST" duration-ms="4467" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.PaymentPageTest -->
+    </test> <!-- Payment -->
+    <test started-at="2026-02-18T19:28:59 IST" name="Depends on Groups" finished-at="2026-02-18T19:30:17 IST" duration-ms="78298">
+      <class name="testcase.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:28:59 IST" name="setup" finished-at="2026-02-18T19:29:44 IST" duration-ms="45549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logging()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:29:44 IST" name="logging" finished-at="2026-02-18T19:29:53 IST" duration-ms="8865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logging -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.LoginTest@710636b0]" started-at="2026-02-18T19:29:53 IST" name="teardown" finished-at="2026-02-18T19:30:04 IST" duration-ms="10547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.LoginTest -->
+      <class name="testcase.OrderConfirmationPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:30:04 IST" name="setup" finished-at="2026-02-18T19:30:12 IST" duration-ms="8219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderConfirmation()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:30:12 IST" name="orderConfirmation" depends-on-groups="Login" finished-at="2026-02-18T19:30:16 IST" duration-ms="3601" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderConfirmation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.OrderConfirmationPageTest@dc7df28]" started-at="2026-02-18T19:30:16 IST" name="teardown" finished-at="2026-02-18T19:30:17 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcase.OrderConfirmationPageTest -->
+    </test> <!-- Depends on Groups -->
+    <test started-at="2026-02-18T19:28:59 IST" name="Product" finished-at="2026-02-18T19:31:20 IST" duration-ms="141316">
+      <class name="testcase.ProductPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:28:59 IST" name="setup" finished-at="2026-02-18T19:29:42 IST" duration-ms="43409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addProduct()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:29:42 IST" name="addProduct" finished-at="2026-02-18T19:31:18 IST" duration-ms="96055" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addProduct -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:09:05 IST" name="teardown" finished-at="2026-02-18T19:09:07 IST" duration-ms="2329" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcase.ProductPageTest@37313c65]" started-at="2026-02-18T19:31:18 IST" name="teardown" finished-at="2026-02-18T19:31:20 IST" duration-ms="1732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

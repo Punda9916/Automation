@@ -84,6 +84,7 @@ public class productPage  extends AbstractComponent{
 	    System.out.println("Clicked Add To Cart for: " + productZ);
 	    
 	    waitForElementToAppear(alert_product_added_to_cart);
+	    waitForElementToDisappear(alert_product_added_to_cart);
 	}
 
 
