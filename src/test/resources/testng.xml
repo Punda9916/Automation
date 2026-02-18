@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel ="tests" thread-count="4">
+
+<listeners> <!-- Fully qualified class name of your listener --> 
+<listener class-name="utilities.Listeners"/> 
+</listeners>
+  <test  name="Depends on Groups">
+ <classes>
+       <class name="testcase.LoginTest"/>
+       <class name ="testcase.OrderConfirmationPageTest"/>
+       	</classes>
+      </test> <!-- Test -->
+    
+  <test name="Product">
+  <classes>
+       <class name="testcase.ProductPageTest"/>
+       
+  </classes>
+  </test>
+  
+   <test name="Payment">
+  <classes>
+       <class name="testcase.PaymentPageTest"/>
+       
+  </classes>
+  </test>
+  </suite>
